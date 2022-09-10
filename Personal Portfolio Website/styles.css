@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#d1{
+    background-color: red;
+    width: 20vw;
+    font-family: 'Lato', sans-serif;
+    height: 100vh;
+}
+#d1 nav{
+    padding: 45px;
+}
+#d1 nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 30px;
+}
+#main{
+    background-color: yellow;
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+#info{
+    background-color: magenta;
+    height: 60vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+#pic img{
+    height: 60vh;
+}
+#devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+   
+}
+#hello{
+    font-size: 60px;
+}
+#name{
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Encode Sans SC', sans-serif;
+}
+#about{
+    font-size: 30px;
+}
+#bt button{
+    
+}
