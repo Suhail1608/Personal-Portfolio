@@ -8,7 +8,7 @@
 
 #d1{
     background-color: red;
-    width: 20vw;
+    width: 500px;
     font-family: 'Lato', sans-serif;
     height: 100vh;
 }
@@ -20,6 +20,10 @@
     font-size: 20px;
     padding: 30px;
 }
+#d1 nav li a{
+    text-decoration: none;
+    color: white;
+}
 #main{
     background-color: yellow;
     width: 90vw;
@@ -29,7 +33,7 @@
 }
 #info{
     background-color: magenta;
-    height: 60vh;
+    height: 50vh;
     width: 80vw;
     margin: 144px auto;
     display: flex;
@@ -56,6 +60,33 @@
 #about{
     font-size: 30px;
 }
+#aboutinfo{
+    margin-top: 10px;
+    font-size: 20px;
+}
+#bt{
+    margin-top: 30px;
+}
 #bt button{
-    
+    background-color:royalblue;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border-width: 1px;
+    transition: 1s;
+    animation-duration: 1s;
+    animation-name: btfx;
+    text-shadow: 1px;
+    margin: 0 3px;
+    font-size: 20px;  
+    cursor: pointer;
+}
+@keyframes btfx {
+    from{padding: 0px;}
+    to{padding: 10px 15px;}
+}
+#bt button:hover{
+
+    background-color:white;
+    color: royalblue;
 }
