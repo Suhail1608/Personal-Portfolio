@@ -13,5 +13,19 @@ Demo video for the above project is posted on the Youtube.
 
 -----
 
-#Fonts
+# Fonts
 * [Montserrat](https://fonts.google.com/specimen/Montserrat)
+* [Encode Sans SC](https://fonts.google.com/specimen/Encode+Sans+SC)
+* [Play](https://fonts.google.com/specimen/Play)
+* [Outfit](https://fonts.google.com/specimen/Outfit)
+
+-----
+
+# Requirement
+* Web Browser
+* 10mb Storage space
+
+-----
+
+# Contributor
+* Suhail Basha
