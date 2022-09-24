@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/CSS/styles.css">
+    <script src="/JS/script.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="logo">
+        <a href="index.html"><img src="/logo/logo.png" alt="Logo"></a>
+    </div>
+    <div class="intro" id="section1">
+        <div class="hello">
+            <div class="speech">
+                <div class="hi">Hi, I am</div>
+                <div class="name"><a href="#pfp"> Morales Kleese</a></div>
+                <div class="who" id="pfp">An indie game developer.</div>
+                <button class="btn1" onclick="window.location.href = '#section2'">Know more</button>
+            </div>
+        </div>
+        <div class="pfp">
+            <img src="/images/dev1.png" alt="pfp">
+        </div>
+        <div class="btn-1">
+            <button class="btn1-p" onclick="window.location.href = '#section2'">Know more</button>
+        </div>
+    </div>
+    <div class="portfolio" id="section2">
+        My Portfolio
+        <div class="info">
+            
+            My name is Morales Kleese.
+            I am an Indie game developer, 
+            content creator and a computer enthusiast.
+            <hr color="black">
+        </div>
+
+        
+        <div class="work">
+            My Work
+            <div class="workinfo">
+                I would like to present some of the games I developed.
+                <hr color="black">
+                
+            </div>
+            <div class="showcase">
+                <div class="workshow">
+                    <img src="/images/game1.png" alt="Game">
+                </div>
+                <div class="workshow">
+                    <img src="/images/game2.png" alt="Game">
+                </div>
+                <div class="workshow">
+                    <img src="/images/game3.png" alt="Game">
+                </div>
+                <div class="workshow">
+                    <img src="/images/game4.png" alt="Game">
+                </div>
+            </div>
+            <button class="btn2" onclick="window.location.href = '#section3'">My Projects</button>
+            <div class="btn-2">
+                <button class="btn2-p" onclick="window.location.href = '#section3'">My Projects</button>
+            </div>
+        </div>
+        
+        <hr color="black">
+
+        <div class="project" id="section3">
+            My Projects
+            <div class="projectinfo">
+                These are my projects.
+                <hr color=#D9D9D9>
+            </div>
+           <div class="projecttitle">
+            Realtime Motion Capture
+           </div>
+            <div class="projectshow">
+                <img src="/images/game8.png" alt="" >
+                <div class="projectdesc">
+                    Goal of this project is to capture motion data using motion capture suit
+                    And process the data in realtime to record the movements and feed the data
+                    to the character in the virtual world. This project was initiated on 24th August,
+                    2021. And it was completed on 12th July, 2022. My team included four other members.
+                    This project was one of my huge success. I am proud to include this in my portfolio.
+                </div>
+            </div>
+
+            <div class="projecttitle">
+                Pathfinding AI using Neural Networks
+            </div>
+                <div class="projectshow">
+                    <img src="/images/game9.png" alt="" >
+                    <div class="projectdesc">
+                        This is one my of solo project. In this project, I worked in neural networks
+                        to make an AI agent that can find path in a dynamic environment. I had the
+                        chance to implement various concepts like forward propation and back propagation.
+                        It was a great learning experience for me and this was the first time I stepped
+                        into the world of neural networks to widen my knowledge in computer science. 
+                    </div>
+                </div>
+            <div class="projectinfo">
+                These are my devlogs.
+                <hr color=#D9D9D9>
+                <div class="images-slideshow">
+                    <div id="ph">
+                        <img src="/icon/play.png" alt="">
+                        <a href="https://youtu.be/5oXvF1Wam7k"><video src="/videos/video2.mp4" id="ph" preload="auto"></video></a>
+                    </div>
+                    <div class="imageSlides fade">
+                        <div>
+                            <img src="/icon/play.png" alt="">
+                            <a href="https://youtu.be/5oXvF1Wam7k"><video src="/videos/video2.mp4" id="ph" preload="auto"></video></a>
+                        </div>
+                    </div>
+                    <div class="imageSlides fade">
+                        <div onclick="">
+                            <img src="/icon/play.png" alt="">
+                            <a href="https://youtu.be/5oXvF1Wam7k"><video src="/videos/video1.mp4" id="ph" preload="auto"></video></a>
+                        </div>
+                    </div>
+                    <div class="imageSlides fade">
+                        <div>
+                            <img src="/icon/play.png" alt="">
+                            <a href="https://youtu.be/5oXvF1Wam7k"><video src="/videos/video3.mp4" id="ph" preload="auto"></video></a>
+                        </div>
+                    </div>
+                    <a class="slider-btn previous" onclick="setSlides(-1)">❮</a>
+                    <a class="slider-btn next" onclick="setSlides(1)">❯</a>
+                </div>
+            </div>
+            <button class="btn2" onclick="window.location.href = '#section4'">About Me</button>
+            <div class="btn-2">
+                <button class="btn2-p" onclick="window.location.href = '#section4'">About Me</button>
+            </div>
+        </div>
+
+        <hr color=#D9D9D9>
+
+        <div class="about" id="section4">
+            About me
+            <div class="aboutinfo">
+                My name is Morales Kleese. I am a 25 years old computer science graduate from Stanford University.
+                After getting my UG I pursued in gaming industry as I wanted to become a full-time 
+                game developer. After two years I started my Youtube Channel and became a content creator.
+            </div>
+            Skills
+            <div class="skillsbar">
+                <div class="skills1" >
+                    C Sharp
+                </div>
+            </div>
+            <div class="skillsbar">
+                <div class="skills2" >
+                    Java
+                </div>
+            </div>
+            <div class="skillsbar">
+                <div class="skills3" >
+                    Python
+                </div>
+            </div>
+            <div class="skillsbar">
+                <div class="skills4" >
+                    Unity 3D
+                </div>
+            </div>
+            <button class="btn2" onclick="window.location.href = '#section5'">Contact</button>
+            <div class="btn-2">
+                <button class="btn2-p" onclick="window.location.href = '#section5'">Contact</button>
+            </div>
+        </div>
+
+        <div class="contact" id="section5">
+            My Contact
+            <form>
+                <div class="mail">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="msg">
+                  <label for="message" class="form-label">Message</label>
+                  <input type="text" class="form-control" id="message">
+                </div>
+                <button type="submit" class="send btn1">Send</button>
+                <button type="submit" class="send btn1-p">Send</button>
+            </form>
+        </div>
+        <hr color=#090909>
+            <div class="contactinfo">
+                <ul>
+                    <li><img src="/icon/icons8-location-50.png" alt=""> Central, Louisiana</li>
+                    <li><img src="/icon/icons8-mail-50.png" alt=""> moradev@gmail.com</li>
+                    <li><img src="/icon/icons8-phone-50.png" alt=""> 555-100-5200</li>
+                </ul>
+            </div>
+            <hr color=#090909 width="90%">
+        <div class="social">
+            <a href="#"><img src="/logo/facebook.png" alt="FB"></a>
+            <a href="#"><img src="/logo/twitter.png" alt="TW"></a>
+            <a href="#"><img src="/logo/youtube.png" alt="YT"></a>
+            <a href="#"><img src="/logo/instagram.png" alt="IN"></a>
+            <a href="#"><img src="/logo/linkedin.png" alt="LI"></a>
+        </div>
+    </div>
+    <footer>© 2022 moradev </footer>
+</body>
+</html>
