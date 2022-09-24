@@ -14,4 +14,4 @@ Demo video for the above project is posted on the Youtube.
 -----
 
 #Fonts
-*[Montserrat](https://fonts.google.com/specimen/Montserrat)
+* [Montserrat](https://fonts.google.com/specimen/Montserrat)
